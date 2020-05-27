@@ -8,9 +8,9 @@
 
 It's pretty simple to understand. 
 This exercise has 3 files, the index.html, index.js and the styles.css.
-In the **index.html** I set all the basic informations.
-In the **index.css** I hide the model-outer with opacity to show up only when the button is clicked.
-In the **index.js** I set all the functionalties that is needed. There is a main function with all others inside of it. 
+- In the **index.html** I set all the basic informations.
+- In the **index.css** I hide the model-outer with opacity to show up only when the button is clicked.
+- In the **index.js** I set all the functionalties that is needed. There is a main function with all others inside of it. 
  In this main function I grab the images, modal and the buttons. In here I set the other functions which handle the modal, the clicks and the keys.
  You can click in an image and the pop-up will show up, you can forward and backwards with the images. By clicking 'ESC' you will close the pop-up as well as by clicking outisde the card. 
 

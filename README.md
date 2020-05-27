@@ -21,7 +21,7 @@ In the **index.js** I set all the functionalties that is needed. There is a main
 
 - Clone the repo
 
-      git clone https://github.com/euguilhermegirardi/click-outside-exercise.git
+      git clone https://github.com/euguilhermegirardi/gallery-pop-up-with-slider-exercise.git
       
 2. Open the file
 

@@ -28,7 +28,7 @@ function Gallery(gallery) {
       return;
     }
 
-    // Update the modal (pop-up) with the new info (img, info such h2 and p)
+    // Update the modal (pop-up) with the new info (img and info such h2 and p)
     modal.querySelector('img').src = element.src;
     modal.querySelector('h2').textContent = element.title;
     modal.querySelector('figure p').textContent = element.dataset.description;
@@ -36,19 +36,19 @@ function Gallery(gallery) {
     openModal();
   };
 
-  function showNextImage() {
-    showImage(
-      // next element sibling or goes forward to the first element.
-      currentImage.nextElementSibling ||
-      gallery.firstElementChild
-    )
-  };
-
   function showPrevImage() {
     showImage(
       // prev element sibling or goes back to the last element.
       currentImage.previousElementSibling ||
       gallery.lastElementChild
+    )
+  };
+
+  function showNextImage() {
+    showImage(
+      // next element sibling or goes forward to the first element.
+      currentImage.nextElementSibling ||
+      gallery.firstElementChild
     )
   };
 
